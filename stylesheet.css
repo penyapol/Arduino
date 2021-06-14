@@ -1,0 +1,605 @@
+* {
+		box-sizing: border-box;
+	}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: arial, serif;
+	line-height: 1.5em;
+
+}
+
+.header {
+	background: #089fa4;
+	padding: 1px;
+	background: linear-gradient( to right,#089fa4,#2ccacf);
+
+}
+
+
+.header .a2 {
+	float: right;
+	text-decoration: none;
+	color: #fff;
+	padding-top: 35px;
+	margin-right: 20px;
+}
+
+.header .a2:hover {
+	color: orange;
+
+
+}
+.header h1 {
+	font-family: century Gothic;
+	font-size:35px;
+}
+
+.header h1 img {
+
+	width: 40px;
+	margin-left: 20px;
+	margin-right: 7px;
+}
+.header h1 a {
+
+	color: #FFF;
+	text-decoration: none;
+}
+
+.banner {
+	background-image: url(1a.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+	margin: 0;
+	padding: 0;
+
+}
+
+.banner h2 {
+	margin: 0;
+	
+	line-height: 350px;
+	text-align: center;
+	border-color: #FFF;
+
+
+}
+
+.banner h2 a {
+	text-decoration: none;
+	color: #FFF;
+	border-color: #FFF;
+	border-style: solid;
+	padding: 2px;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.banner h2 a:hover {
+	opacity: 0.4;
+	background-color:#FFF;
+	color: #000;
+
+
+}
+
+.nav {
+	background-color: #089fa4;
+	background: linear-gradient( to right,#089fa4,#2ccacf);
+	text-align: center;
+	list-style: none;
+	margin: 0;
+	padding: 15px;
+}
+
+.nav li {
+	
+	display: inline-block;
+	padding: 0px 40px 0px 40px;
+	
+}
+
+.nav li a {
+	text-decoration: none;
+	color: #fff;
+	
+	
+}
+
+.nav li a:hover {
+	color: orange;
+	
+
+}
+
+.column {
+		float: left;
+		padding: 10px;
+	}
+	.column.side {
+	
+		width: 33%;
+		background-color: #eaeaea;
+		border-color: #FFF;
+		border-style: solid;
+
+	}
+
+	.column.side video {
+
+		 width: 100%;
+   		 height: auto;
+	
+	
+
+	}
+	.column.middle {
+		
+		width: 34%;
+		background-color: #eaeaea;
+		border-color: #FFF;
+		border-style: solid;
+
+	}
+
+	.column.middle .ard {
+		width: 71.3%;
+   		height: auto;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+
+
+
+	}
+
+	.column.middle h1 {
+		font-size: 30px;
+		font-family: Century Gothic;
+		color: orange;
+	}
+	.column.side h1 {
+		font-size: 30px;
+		font-family: Century Gothic;
+		color: orange;
+	}
+
+	.column.side .soft {
+		 width: 79.5%;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+
+	} 
+
+
+	.row {
+		margin: 10px;
+
+
+	}
+	.row:after {
+		display: table;
+		clear: both;
+	}
+p {
+
+color: #434343;
+text-align: left;
+font-size: 15px;
+line-height: 1.5em;
+}
+
+.footer {
+
+	background-color: #089fa4;
+	height: 100px;
+	margin-top: 425px;
+	margin-top: 0px;
+
+
+
+}
+
+.footer a img {
+	width: 25px;
+	padding: 40px 0px 0px 0px;
+	margin-left: 3px;
+	margin-right: 3px;
+
+
+}
+
+.readmore {
+
+	margin-left: 280px;
+	font-size: 13px;
+
+
+}
+
+.copy {
+	text-align: center;
+	color: white;
+	margin: 0;
+	margin-top: 10px;
+}
+
+.about {
+
+	margin: 0;
+	padding: 1px;
+	background-color: #089fa4;
+	height: 320px;
+
+}
+
+.column.side1 {
+	
+		width: 33%;
+		height: auto;
+		background-color: #089fa4;
+
+
+
+	}
+
+	.column.side1 h2 {
+		color: white;
+	}
+
+	.column.middle1 h2 {
+		color: white;
+	}
+
+	.column.middle1 {
+	
+		width: 33%;
+			height: auto;
+		background-color: #089fa4;
+
+
+
+	}
+
+	.ap {
+		color: #ebebeb;
+		margin-right:20px;
+	}
+
+	.column.middle1 ul li {
+		color: #ebebeb;
+
+
+	}
+
+	.column.middle1 ul {
+		height: auto;
+	}
+
+	.main {
+		height: auto;
+		background-color: blue;
+		margin-top: 440px;
+		margin-left: 12px;
+		margin-right: 12px;
+		background-color: #eaeaea;
+	}
+	
+
+	.main p {
+
+		color: #434343;
+		text-align: left;
+		font-size: 15px;
+		line-height: 1.5em;
+		padding-top: 25px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 20px;
+		font-size: 17px;
+		margin-bottom: 10px;
+
+
+	}
+
+	.main img {
+		width: 280px;
+		margin: 0px 15px 10px 0px;
+		float: left;
+	}
+
+
+
+/*========LOGIN DESIGN========*/
+
+.loginbox {
+
+	background-color: #089fa4;
+	background: linear-gradient( to right,#089fa4,#2ccacf);
+	width: 350px;
+	height: auto;
+	margin-left: 450px;
+	margin-top:50px;
+	border-radius: 5px;
+	padding: 20px 50px 20px 50px;
+
+}
+
+.loginbox form label {
+
+	font-family: arial;
+	color: white;
+	font-size: 20px
+
+}
+
+.loginbox input[type="text"], input[type="password"], input[type="date"] {
+
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 250px;
+	height: 30px;
+	font-size: 20px;
+	text-align: center;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	color: white;
+
+	}
+
+.loginbox input[type="submit"] {
+	width: 250px;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: arial;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	
+
+
+}
+
+.loginbox .gen {
+	font-size: 15px;
+
+}
+.loginbox .back {
+
+	color: white;
+
+}
+
+.loginbox .h1log {
+
+	margin: 0;
+	padding: 0;
+
+}
+
+span {
+	color: orange;
+	font-size: 40px;
+}
+
+/*===================REGISTER DESIGN==============*/
+
+
+/*=================PROJECT=============*/
+
+.bodyproject{
+
+	background-color: #eaeaea;
+}
+
+.probanner {
+	background-image: url(probanner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+	margin: 0;
+	padding: 0;
+
+}
+
+.probanner h2 {
+	margin: 0;
+	
+	line-height: 350px;
+	text-align: center;
+	border-color: #FFF;
+
+
+}
+
+.probanner h2 a {
+	text-decoration: none;
+	color: #FFF;
+	border-color: #FFF;
+	border-style: solid;
+	padding: 2px;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.probanner h2 a:hover {
+	opacity: 0.4;
+	background-color:#FFF;
+	color: #000;
+
+
+}
+
+.content {
+	width: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	height: auto;
+	font-family: arial;
+	color:  #434343;
+	margin: 10px 30px;
+
+}
+
+.content .cp {
+	padding: 0px 20px;
+	padding-bottom: 15px;
+	margin: 0px 20px;
+
+}
+
+.content h1 {
+	color: #00979c;
+	font-family: Century Gothic;
+	margin: 20px;
+	margin-left: 40px;
+	padding-top: 10px;
+
+}
+
+.project {
+	
+	height: 230px;
+	padding-right: 20px;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 5px;
+	border-color: #eaeaea;
+	border-style: solid;
+}
+
+.project img {
+	width: 350px;
+	float: left;
+	margin: 0px 20px;
+	transition: opacity 0.3s ease-in-out;
+
+}
+
+.project img:hover {
+	 opacity: 0.4;
+
+
+}
+
+
+.project p {
+
+	color: #434343;
+	text-align: left;
+	font-size: 15px;
+	line-height: 1.5em;
+
+}
+
+.project h2 {
+text-align: left;
+font-family: Bell MT;
+padding-top: 20px;
+cursor: pointer;
+color: #000;
+
+}
+
+.project h2:hover {
+	color: #00979c;
+}
+
+/*=================SERVICE=============*/
+
+.servbanner {
+	background-image: url(a1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+	margin: 0;
+	padding: 0;
+
+}
+
+.servbanner h2 {
+	margin: 0;
+	
+	line-height: 350px;
+	text-align: center;
+	border-color: #FFF;
+
+
+}
+
+.servbanner h2 a {
+	text-decoration: none;
+	color: #FFF;
+	border-color: #FFF;
+	border-style: solid;
+	padding: 2px;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.servbanner h2 a:hover {
+	opacity: 0.4;
+	background-color:#FFF;
+	color: #000;
+
+
+}
+
+/*=================Gallery=============*/
+
+
+
+.gallerybanner {
+	background-image: url(wp.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+	margin: 0;
+	padding: 0;
+
+}
+
+.gallerybanner h2 {
+	margin: 0;
+	
+	line-height: 350px;
+	text-align: center;
+	border-color: #FFF;
+
+
+}
+
+.gallerybanner h2 a {
+	text-decoration: none;
+	color: #FFF;
+	border-color: #FFF;
+	border-style: solid;
+	padding: 2px;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.gallerybanner h2 a:hover {
+	opacity: 0.4;
+	background-color:#FFF;
+	color: #000;
+
+
+}
+.gallerycont img {
+	width: 400px;
+
+}
+.gallerycont {
+	margin-top: 10px;
+}
+
+
